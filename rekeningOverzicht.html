@@ -1,0 +1,102 @@
+<HTML>
+<HEAD><TITLE>DENIM Output</TITLE>
+<style type="text/css">
+	label{
+		position: absolute;
+		left:5%;
+		font-size: 50;
+	}
+	
+	select{
+		position: absolute;
+		left: 30%;
+		width: 15%;
+		height:5%;
+	}
+	
+	input{
+		position: absolute;
+		left: 60%;
+		width: 15%;
+		height: 5%;
+	}
+	
+	#label1{
+		top: 10%;
+	}
+	#label2{
+		top: 20%;
+	}
+	#label3{
+		top: 30%;
+	}
+	#label4{
+		top: 40%;
+	}
+	#label5{
+		top: 50%;
+	}
+	
+	#select1{
+		top: 10%;
+	}
+	#select2{
+		top: 20%;
+	}
+	#select3{
+		top: 30%;
+	}
+	
+	#input1{
+		top: 10%;
+	}
+	#input2{
+		top: 20%;
+	}
+	#input3{
+		top: 30%;
+	}
+	#input4{
+		top: 40%;
+	}
+	#input5{
+		top: 50%;
+	}
+	
+	#totaal{
+		position: absolute;
+		top: 60%;
+		left: 5%;
+		width: 90%;
+        height: 5%;
+	}
+	
+	#afrekenen, #terug{
+		position: absolute;
+        left: 75%;
+        top:90%;
+        transform: translate(-50%, -50%);
+		width: 15%;
+        height: 5%;
+	}
+	#terug{
+		left:50%
+	}
+</style>
+</HEAD>
+<BODY>
+<label id="label1">Gerecht 1</label><INPUT TYPE="text" id="input1" placeholder="Voorkeur klant">
+<label id="label2">Gerecht 2</label><INPUT TYPE="text" id="input2" placeholder="Voorkeur klant">
+<label id="label3">Gerecht 3</label><INPUT TYPE="text" id="input3" placeholder="Voorkeur klant">
+<label id="label4">Drinken</label><INPUT TYPE="text" id="input4" placeholder="Voorkeur klant">
+<label id="label5">Alcohol</label><INPUT TYPE="text" id="input5" placeholder="Voorkeur klant">
+
+<select id="select1"><option selected value=1>Mild<option value=2>Pittig</select>
+<select id="select2"><option selected value=1>Mild<option value=2>Pittig</select>
+<select id="select3"><option selected value=1>Mild<option value=2>Pittig</select>
+<INPUT TYPE="text" name= "1601552878896" id="totaal" placeholder="Prijstotaal">
+
+<BUTTON id="afrekenen" onClick="document.location = 'afrekenen.html'">Afrekenen</BUTTON>
+<BUTTON id="terug" onClick="document.location = 'overzicht.html'">Terug</BUTTON>
+</BODY>
+</HTML>

@@ -1,0 +1,83 @@
+<HTML>
+<HEAD><TITLE>DENIM Output</TITLE>
+<style type="text/css">
+	
+
+	button, select, #totaal{
+		position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 15%;
+        height: 5%;
+	}
+	
+	select{
+		left: 33.33%;
+		top: 10%;
+	}
+	
+	label{
+		font-size: 50;
+	}
+	
+	input{
+		margin-bottom: 20%;
+	}
+	
+	#rekening{
+		position: absolute;
+		top: 15%;
+		left; 5%;
+	}
+	
+	#prijs{
+		position: absolute;
+		top: 17%;
+		left: 26%;
+	}
+	
+	#totaal{
+		top: 55%;
+		left: 35%;
+	}
+	
+	#perPersoon{
+		top: 10%;
+		left: 66.66%
+	}
+	
+	#terug{
+		top:90%;
+	}
+</style>
+</HEAD>
+<BODY>
+<select><option selected value=1>Aantal personen<option value=1>1<option value=2>2<option value=3>3<option value=4>4<option value=5>5<option value=6>6<option value=7>7<option value=8>8</select>
+<BUTTON TYPE=SUBMIT id="perPersoon">Per persoon betalen</BUTTON>
+<div id="rekening">
+<label>Persoon 1</label><br>
+<label>Persoon 2</label><br>
+<label>Persoon 3</label><br>
+<label>Persoon 4</label><br>
+<label>Persoon 5</label><br>
+<label>Persoon 6</label><br>
+<label>Persoon 7</label><br>
+<label>Persoon 8</label><br>
+</div>
+
+
+<div id="prijs">
+<INPUT TYPE="text" name= "1602061419765" id="dnm1602061419765""><br>
+<INPUT TYPE="text" name= "1602061419735" id="dnm1602061419735""><br>
+<INPUT TYPE="text" name= "1602061419732" id="dnm1602061419732""><br>
+<INPUT TYPE="text" name= "1602061419729" id="dnm1602061419729""><br>
+<INPUT TYPE="text" name= "1602061419726" id="dnm1602061419726""><br>
+<INPUT TYPE="text" name= "1602061419723" id="dnm1602061419723""><br>
+<INPUT TYPE="text" name= "1602061419720" id="dnm1602061419720""><br>
+<INPUT TYPE="text" name= "1602061419717" id="dnm1602061419717""><br>
+</div>
+
+<input TYPE=text id="totaal" placeholder="Totaalbedrag"></input>
+<BUTTON TYPE=SUBMIT id="terug" onClick="document.location = 'rekeningOverzicht.html'">Terug</BUTTON>
+</BODY>
+</HTML>
