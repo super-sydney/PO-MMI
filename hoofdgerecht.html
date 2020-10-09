@@ -1,5 +1,6 @@
 <HTML>
 <HEAD><TITLE>DENIM Output</TITLE>
+<link rel="stylesheet" href="style.css">
 <style type="text/css">
     button{
         position: absolute;
@@ -8,6 +9,12 @@
         transform: translate(-50%, -50%);
         width: 15%;
         height: 5%;
+    }
+    img{
+        position: relative;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
     }
     #vorige{
        left:25%; 
@@ -22,10 +29,7 @@
 
 </HEAD>
 <BODY>
-<MAP NAME="condition1">
-</MAP>
-
-<FORM></FORM>
+<img src="img/menu1.png">
 <BUTTON TYPE=SUBMIT id="vorige" onClick="document.location = 'voorgerecht.html'">Vorige</BUTTON>
 <BUTTON TYPE=SUBMIT id="volgende" onClick="document.location = 'nagerecht.html'">Volgende</BUTTON>
 <BUTTON TYPE=SUBMIT id="overzicht" onClick="document.location = 'rekeningOverzicht.html'">Rekening Overzicht</BUTTON>

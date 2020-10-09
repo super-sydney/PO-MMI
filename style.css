@@ -1,0 +1,37 @@
+body{
+	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('img/bg.jpg');
+
+}
+
+button{
+	background: white;
+    border: solid black 2px;
+}
+
+@keyframes buttonHover{
+	from {
+		background-color: white;
+		color: black;
+	}
+	to{
+		background-color: black;
+		color: white;
+	}
+}
+
+button:hover{
+	animation-name: buttonHover;
+	animation-duration: 0.3s;
+	animation-fill-mode: both;
+}
+
+div{
+	background-image: 
+}
+
+img{
+    	position: relative;
+    	left: 50%;
+    	top: 40%;
+        transform: translate(-50%, -50%);
+    }
