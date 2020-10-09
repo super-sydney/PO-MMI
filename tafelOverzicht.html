@@ -1,81 +1,126 @@
 <HTML>
-<HEAD><TITLE>DENIM Output</TITLE>
-<link rel="stylesheet" href="style.css">
-<style type="text/css">
-    select{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 20%;
-        height:5%;
+
+<HEAD>
+  <TITLE>DENIM Output</TITLE>
+  <link rel="stylesheet" href="style.css">
+  <style type="text/css">
+    select {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20%;
+      height: 5%;
     }
 
-a{
-    position: absolute;
-    font-size: 50;
-}
-
-    #tafel1, #label1{
-        top: 10%;
-    }
-    #tafel2, #label2{
-        top: 20%;
-    }
-    #tafel3, #label3{
-        top: 30%;
-    }
-    #tafel4, #label4{
-        top: 40%;
-    }
-    #tafel5, #label5{
-        top: 50%;
-    }
-    #tafel6, #label6{
-        top: 60%;
+    a {
+      position: absolute;
+      font-size: 50;
     }
 
-    button{
-        position: absolute;
-        top: 75%;
-        width: 15%;
-        height: 5%;
+    #tafel1,
+    #label1 {
+      top: 10%;
     }
 
-    #bijbestellen{
-        left: 25%;
-        transform: translate(-50%, -50%);
+    #tafel2,
+    #label2 {
+      top: 20%;
     }
 
-    #terug{
-        left: 50%;
-        transform: translate(-50%, -50%);
+    #tafel3,
+    #label3 {
+      top: 30%;
     }
 
-    #rekening{
-        left: 75%;
-        transform: translate(-50%, -50%);
+    #tafel4,
+    #label4 {
+      top: 40%;
     }
-</style>
+
+    #tafel5,
+    #label5 {
+      top: 50%;
+    }
+
+    #tafel6,
+    #label6 {
+      top: 60%;
+    }
+
+    button {
+      position: absolute;
+      top: 75%;
+      width: 15%;
+      height: 5%;
+    }
+
+    #bijbestellen {
+      left: 25%;
+      transform: translate(-50%, -50%);
+    }
+
+    #terug {
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #rekening {
+      left: 75%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
 
 </HEAD>
+
 <BODY>
-<div id="labels">
+  <div id="labels">
     <a id="label1">Tafel 1</a><br>
     <a id="label2">Tafel 2</a><br>
     <a id="label3">Tafel 3</a><br>
     <a id="label4">Tafel 4</a><br>
     <a id="label5">Tafel 5</a><br>
     <a id="label6">Tafel 6</a><br>
-</div>
+  </div>
 
-<select class=size11 id="tafel1"><option selected value=1>Selecteer Tafel Status<option value=2>Bezet<option value=3>Gereserveerd<option value=4>Vrij</select>
-<select class=size11 id="tafel2"><option selected value=1>Selecteer Tafel Status<option value=2>Bezet<option value=3>Gereserveerd<option value=4>Vrij</select>
-<select class=size11 id="tafel3"><option selected value=1>Selecteer Tafel Status<option value=2>Bezet<option value=3>Gereserveerd<option value=4>Vrij</select>
-<select class=size11 id="tafel4"><option selected value=1>Selecteer Tafel Status<option value=2>Bezet<option value=3>Gereserveerd<option value=4>Vrij</select>
-<select class=size11 id="tafel5"><option selected value=1>Selecteer Tafel Status<option value=2>Bezet<option value=3>Gereserveerd<option value=4>Vrij</select>
-<select class=size11 id="tafel6"><option selected value=1>Selecteer Tafel Status<option value=2>Bezet<option value=3>Gereserveerd<option value=4>Vrij</select>
-<BUTTON TYPE=SUBMIT id="bijbestellen" onClick="document.location = 'nieuweBestelling.html'">Bijbestellen</BUTTON>
-<BUTTON TYPE=SUBMIT id="terug" onClick="document.location = 'index.html'">Terug</BUTTON>
-<BUTTON TYPE=SUBMIT id="rekening" onClick="document.location = 'rekeningOverzicht.html'">Rekening</BUTTON>
+  <select class=size11 id="tafel1">
+    <option selected value=1>Selecteer Tafel Status
+    <option value=2>Bezet
+    <option value=3>Gereserveerd
+    <option value=4>Vrij
+  </select>
+  <select class=size11 id="tafel2">
+    <option selected value=1>Selecteer Tafel Status
+    <option value=2>Bezet
+    <option value=3>Gereserveerd
+    <option value=4>Vrij
+  </select>
+  <select class=size11 id="tafel3">
+    <option selected value=1>Selecteer Tafel Status
+    <option value=2>Bezet
+    <option value=3>Gereserveerd
+    <option value=4>Vrij
+  </select>
+  <select class=size11 id="tafel4">
+    <option selected value=1>Selecteer Tafel Status
+    <option value=2>Bezet
+    <option value=3>Gereserveerd
+    <option value=4>Vrij
+  </select>
+  <select class=size11 id="tafel5">
+    <option selected value=1>Selecteer Tafel Status
+    <option value=2>Bezet
+    <option value=3>Gereserveerd
+    <option value=4>Vrij
+  </select>
+  <select class=size11 id="tafel6">
+    <option selected value=1>Selecteer Tafel Status
+    <option value=2>Bezet
+    <option value=3>Gereserveerd
+    <option value=4>Vrij
+  </select>
+  <BUTTON TYPE=SUBMIT id="bijbestellen" onClick="document.location = 'nieuweBestelling.html'">Bijbestellen</BUTTON>
+  <BUTTON TYPE=SUBMIT id="terug" onClick="document.location = 'index.html'">Terug</BUTTON>
+  <BUTTON TYPE=SUBMIT id="rekening" onClick="document.location = 'rekeningOverzicht.html'">Rekening</BUTTON>
 </BODY>
+
 </HTML>

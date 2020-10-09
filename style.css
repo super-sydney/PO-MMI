@@ -5,7 +5,7 @@ body{
 
 button{
 	background: white;
-    border: solid black 2px;
+		border: solid black 2px;
 }
 
 @keyframes buttonHover{
@@ -26,12 +26,12 @@ button:hover{
 }
 
 div{
-	background-image: 
+	background-image:
 }
 
 img{
-    	position: relative;
-    	left: 50%;
-    	top: 40%;
-        transform: translate(-50%, -50%);
-    }
+			position: relative;
+			left: 50%;
+			top: 40%;
+				transform: translate(-50%, -50%);
+		}

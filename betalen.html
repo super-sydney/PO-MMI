@@ -1,58 +1,62 @@
 <HTML>
-<HEAD><TITLE>DENIM Output</TITLE>
-<link rel="stylesheet" href="style.css">
-<style type="text/css">
-    form{
-        position: absolute;
-        top:35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-	
-     button{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 15%;
-        height: 5%;
-    }
-	
-	#rekening{
-		position: absolute;
-        top:35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        height:60%;
-	}
-	
-    #betalen{
-        top: 80%;
-    }
-	
-    #terug{
-        top: 90%;
+
+<HEAD>
+  <TITLE>DENIM Output</TITLE>
+  <link rel="stylesheet" href="style.css">
+  <style type="text/css">
+    form {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 
-    form{
-        position: absolute;
-        left: 50%;
-        top: 70%;
-        transform: translate(-50%, -50%);
+    button {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 15%;
+      height: 5%;
     }
-</style>
+
+    #rekening {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      height: 60%;
+    }
+
+    #betalen {
+      top: 80%;
+    }
+
+    #terug {
+      top: 90%;
+    }
+
+    form {
+      position: absolute;
+      left: 50%;
+      top: 70%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
 
 </HEAD>
+
 <BODY>
-<INPUT TYPE="text" name= "1602061419911" id="rekening">
-<FORM>
-<INPUT TYPE="RADIO" NAME="1602061419899" VALUE="1602063245527"id="dnm1602063245527" onChange="updatecondition('dnm1602063245527')"><label id="dnm1602063245527c" for="1602063245527">Pinnen</label>
-</INPUT><INPUT TYPE="RADIO" NAME="1602061419899" VALUE="1602063245594"id="dnm1602063245594" onChange="updatecondition('dnm1602063245594')"><label id="dnm1602063245594c" for="1602063245594">Cash</label>
-</INPUT><INPUT TYPE="RADIO" NAME="1602061419899" VALUE="1602063245628"id="dnm1602063245628" onChange="updatecondition('dnm1602063245628')"><label id="dnm1602063245628c" for="1602063245628">Creditcard</label>
-</INPUT>
-</FORM>
-<BUTTON TYPE=SUBMIT id="betalen">Betalen</BUTTON>
-<BUTTON TYPE=SUBMIT id="terug" onClick="document.location = 'rekeningOverzicht.html'">Terug</BUTTON>
+  <INPUT TYPE="text" name="1602061419911" id="rekening">
+  <FORM>
+    <INPUT TYPE="RADIO" NAME="1602061419899" VALUE="1602063245527" id="dnm1602063245527" onChange="updatecondition('dnm1602063245527')"><label id="dnm1602063245527c" for="1602063245527">Pinnen</label>
+    </INPUT><INPUT TYPE="RADIO" NAME="1602061419899" VALUE="1602063245594" id="dnm1602063245594" onChange="updatecondition('dnm1602063245594')"><label id="dnm1602063245594c" for="1602063245594">Cash</label>
+    </INPUT><INPUT TYPE="RADIO" NAME="1602061419899" VALUE="1602063245628" id="dnm1602063245628" onChange="updatecondition('dnm1602063245628')"><label id="dnm1602063245628c" for="1602063245628">Creditcard</label>
+    </INPUT>
+  </FORM>
+  <BUTTON TYPE=SUBMIT id="betalen">Betalen</BUTTON>
+  <BUTTON TYPE=SUBMIT id="terug" onClick="document.location = 'rekeningOverzicht.html'">Terug</BUTTON>
 
 </BODY>
+
 </HTML>
