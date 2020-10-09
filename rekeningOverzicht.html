@@ -66,8 +66,7 @@
 			height: 5%;
 		}
 
-		#afrekenen,
-		#terug {
+		button {
 			position: absolute;
 			left: 75%;
 			top: 80%;
@@ -78,6 +77,10 @@
 
 		#terug {
 			left: 50%
+		}
+
+		#bevestigen {
+			left: 25%;
 		}
 	</style>
 </HEAD>
@@ -103,8 +106,9 @@
 	</select>
 	<INPUT TYPE="text" name="1601552878896" id="totaal" placeholder="Prijstotaal">
 
-	<BUTTON id="afrekenen" onClick="document.location = 'afrekenen.html'">Afrekenen</BUTTON>
+	<BUTTON id="bevestigen">Bestelling Naar Kok Sturen</BUTTON>
 	<BUTTON id="terug" onClick="document.location = 'tafelOverzicht.html'">Terug</BUTTON>
+	<BUTTON id="afrekenen" onClick="document.location = 'afrekenen.html'">Afrekenen</BUTTON>
 </BODY>
 
 </HTML>

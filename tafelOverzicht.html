@@ -68,6 +68,14 @@
       left: 75%;
       transform: translate(-50%, -50%);
     }
+
+    input {
+      margin-bottom: 10%;
+      position: relative;
+      left: 25%;
+      width: 32px;
+      height: 32px;
+    }
   </style>
 
 </HEAD>
@@ -81,6 +89,15 @@
     <a id="label5">Tafel 5</a><br>
     <a id="label6">Tafel 6</a><br>
   </div>
+
+  <form>
+    <input type="radio" name="tafel" checked="checked"></input><br>
+    <input type="radio" name="tafel"></input><br>
+    <input type="radio" name="tafel"></input><br>
+    <input type="radio" name="tafel"></input><br>
+    <input type="radio" name="tafel"></input><br>
+    <input type="radio" name="tafel"></input>
+  </form>
 
   <select class=size11 id="tafel1">
     <option selected value=1>Selecteer Tafel Status
@@ -118,7 +135,7 @@
     <option value=3>Gereserveerd
     <option value=4>Vrij
   </select>
-  <BUTTON TYPE=SUBMIT id="bijbestellen" onClick="document.location = 'nieuweBestelling.html'">Bijbestellen</BUTTON>
+  <BUTTON TYPE=SUBMIT id="bijbestellen" onClick="document.location = 'gerechtenEnDranken.html'">Bijbestellen</BUTTON>
   <BUTTON TYPE=SUBMIT id="terug" onClick="document.location = 'index.html'">Terug</BUTTON>
   <BUTTON TYPE=SUBMIT id="rekening" onClick="document.location = 'rekeningOverzicht.html'">Rekening</BUTTON>
 </BODY>
