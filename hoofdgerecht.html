@@ -14,10 +14,18 @@
     }
 
     img {
-      position: relative;
       left: 50%;
       top: 40%;
       transform: translate(-50%, -50%);
+    }
+
+    div>button {
+      position: relative;
+      width: 110px;
+      height: 35px;
+      left: 16.5%;
+      top: 22.4%;
+      margin: 10% 3.2%;
     }
 
     #vorige {
@@ -36,7 +44,22 @@
 </HEAD>
 
 <BODY>
-  <img src="img/menu1.png">
+  <img src="img/hoofdgerechten.png">
+  <div style="height: 100%;">
+    <button>Toevoegen</button>
+    <button>Toevoegen</button>
+    <button>Toevoegen</button>
+    <button>Toevoegen</button><br>
+    <button>Toevoegen</button>
+    <button>Toevoegen</button>
+    <button>Toevoegen</button>
+    <button>Toevoegen</button><br>
+    <button>Toevoegen</button>
+    <button>Toevoegen</button>
+    <button>Toevoegen</button>
+    <button>Toevoegen</button>
+  </div>
+
   <BUTTON TYPE=SUBMIT id="vorige" onClick="document.location = 'voorgerecht.html'">Vorige</BUTTON>
   <BUTTON TYPE=SUBMIT id="volgende" onClick="document.location = 'nagerecht.html'">Volgende</BUTTON>
   <BUTTON TYPE=SUBMIT id="overzicht" onClick="document.location = 'rekeningOverzicht.html'">Rekening Overzicht</BUTTON>
